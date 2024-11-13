@@ -28,10 +28,10 @@ Step 9. End the Program.
 ## Program:
 ```
 Program to implement the SVM For Spam Mail Detection..
-Developed by: P PARTHIBAN
-RegisterNumber:  212223230145
+Developed by: KALAISELVAN J
+RegisterNumber:  212223080022
 ```
-```python
+```
 import pandas as pd
 data=pd.read_csv("/content/spam.csv",encoding='Windows-1252')
 
