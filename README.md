@@ -35,8 +35,8 @@ data.info()
 
 data.isnull().sum()
 
-x=data["v1"].values
-y=data["v2"].values
+x=data["v2"].values
+y=data["v1"].values
 
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=0)
@@ -61,13 +61,19 @@ accuracy
 
 ## Output:
 ## Head Function
-![image](https://github.com/user-attachments/assets/449d8e92-f550-4016-b3d9-437fe0f8a74a)
+![image](https://github.com/user-attachments/assets/a860bfb1-59aa-4b97-abe1-f5de190ca6c4)
+
 ## Data Information
-![image](https://github.com/user-attachments/assets/489dc53d-ae91-4040-9263-7918077625be)
+![image](https://github.com/user-attachments/assets/5d8b0715-0334-4443-ac7e-f55010db845c)
+![image](https://github.com/user-attachments/assets/425e2444-3950-49e3-b8a8-ba6165ca3ebf)
+
+
 ## Y-Predict
-![image](https://github.com/user-attachments/assets/b363dc1a-aa13-4018-872f-4dde9ff46898)
+![image](https://github.com/user-attachments/assets/d978daa9-53bc-4bdf-b6c8-cbfde01e3fc3)
+
 ## Accuracy
-![image](https://github.com/user-attachments/assets/339d38a5-c5d5-4aaa-af3a-cc11e2c5997e)
+![image](https://github.com/user-attachments/assets/18e87f4a-9a9b-477c-8016-94f4fee730bb)
+
 
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
